@@ -2103,7 +2103,7 @@ function ExpandTool_RedPacket_Room_insertDom() {
 }
 function ExpandTool_RedPacket_Room_insertFunc() {
     document.getElementById("extool__redpacekt_room_start").addEventListener("click", function() {
-        verifyFans("5189167", 6).then(r => {
+        verifyFans("5189167", 0).then(r => {
             if (r == true) {
                 let ischecked = document.getElementById("extool__redpacekt_room_start").checked;
                 if (ischecked == true) {
@@ -2199,7 +2199,7 @@ function ExpandTool_RedPacket_Room_Set() {
 	if (ret != null) {
         let retJson = JSON.parse(ret);
         if (retJson.isGetRedPacket == true) {
-            verifyFans("5189167", 6).then(r => {
+            verifyFans("5189167", 0).then(r => {
                 if (r == true) {
                     document.getElementById("extool__redpacekt_room_start").click();
                 } else {
@@ -2303,7 +2303,7 @@ function ExpandTool_Treasure_insertDom() {
 }
 function ExpandTool_Treasure_insertFunc() {
     document.getElementById("extool__treasure_start").addEventListener("click", function() {
-        verifyFans("5189167", 9).then(r => { // 请尊重作者劳动成果，在此感谢
+        verifyFans("5189167", 0).then(r => { // 请尊重作者劳动成果，在此感谢
             if (r == true) {
                 let ischecked = document.getElementById("extool__treasure_start").checked;
                 if (ischecked == true) {
@@ -2351,7 +2351,7 @@ function ExpandTool_Treasure_Set() {
             document.getElementById("extool__treasure_skey").value = retJson.skey;
         }
         if (retJson.isGetTreasure == true) {
-            verifyFans("5189167", 9).then(r => {
+            verifyFans("5189167", 0).then(r => {
                 if (r == true) {
                     document.getElementById("extool__treasure_start").click();
                 } else {
